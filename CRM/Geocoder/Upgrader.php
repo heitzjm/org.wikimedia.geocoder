@@ -65,8 +65,7 @@ class CRM_Geocoder_Upgrader extends CRM_Extension_Upgrader_Base {
   protected static function activateGeocoder($geoCoderName)
   {
   /*api3 does error checking itself, so there is less need to do checking*/
-     $geoCoderReqId=civicrm_api3('Geocoder','getvalue',['return'=>"id",'name'=>$geoCoderName]);
-     $geoCoderId=$geoCoderReqId['result'];
+     $geoCoderId=civicrm_api3('Geocoder','getvalue',['return'=>"id",'name'=>$geoCoderName]);
      civicrm_api3('Geocoder','create',['id'=>$geoCoderId,'is_active'=>1]);
   }
 
