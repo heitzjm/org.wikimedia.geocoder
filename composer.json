@@ -30,7 +30,6 @@
     "geocoder-php/common-http": "4.5.*"
   },
   "replace": {
-    "psr/http-message-implementation": "^1.0",
     "psr/http-message": "^1.0.1"
   },
   "config": {
