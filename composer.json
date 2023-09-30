@@ -30,8 +30,6 @@
     "geocoder-php/common-http": "4.5.*"
   },
   "replace": {
-    "guzzlehttp/guzzle": "^6.0",
-    "guzzlehttp/psr7": "^1.6.1",
     "psr/http-message-implementation": "^1.0",
     "psr/http-message": "^1.0.1"
   },
