@@ -2,7 +2,7 @@
 
 class UpgraderTest extends \PHPUnit\Framework\TestCase
 {
-    protected function managedEntityHasNameDataProvider()
+    public function managedEntityHasNameDataProvider()
     {
         return [
             [null, false],
@@ -28,7 +28,7 @@ class UpgraderTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals($expected, $computed);
     }
 
-    protected function managedEntityIsEnabledOnInstallDataProvider()
+    public function managedEntityIsEnabledOnInstallDataProvider()
     {
         return [
             [null, false],
@@ -55,7 +55,7 @@ class UpgraderTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals($expected, $computed);
     }
 
-    protected function managedEntityIsNotActiveDataProvider()
+    public function managedEntityIsNotActiveDataProvider()
     {
         return [
             [null, false],
