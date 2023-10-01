@@ -17,6 +17,8 @@
     }
   ],
   "require": {
+    "php-http/discovery":"^1.17",
+    "psr/http-client-implementation":"*",
     "geocoder-php/free-geoip-provider": "^4.1",
     "php-http/message": "^1.6",
     "geocoder-php/nominatim-provider": "5.6.*",
